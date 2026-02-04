@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+body {
+  background-color: #f5f7fb;
+  color: #1f2937;
+  font-family: Arial, sans-serif;
+}
+
+.bg-gray-800 {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bg-gray-800:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+a {
+  transition: color 0.2s ease;
+}
+
+footer {
+  background-color: #111827;
+  color: #9ca3af;
+}
